@@ -9,6 +9,7 @@ h1 {
 
 p {
     color: #fff;
+    text-align: center;
 }
 
 .container {
@@ -25,7 +26,6 @@ p {
 }
 
 .day {
- background-color: #fff;
  display: flex;
  border-bottom: 2px solid black;
  border-radius: 10px 10px 0 0;
