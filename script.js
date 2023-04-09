@@ -7,8 +7,9 @@ const days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
 const dayName = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
 
 if (today === daysIndex[today]){
-    document.getElementById(days[today]).style.color = "white";
-    document.getElementById(days[today]).style.backgroundColor = "black";
-    document.getElementById(days[today]).style.borderColor = "gold";
-    document.getElementById(dayName[today]).style.borderColor = "gold";
+    document.getElementById(days[today]).style.color = "#fff";
+    document.getElementById(days[today]).style.backgroundColor = "#222529";
+    document.getElementById(dayName[today]).style.backgroundColor = "#000"
+    document.getElementById(days[today]).style.borderColor = "#f5f520";
+    document.getElementById(dayName[today]).style.borderColor = "#f5f520";
 }
